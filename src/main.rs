@@ -41,7 +41,7 @@ fn main() {
             "person id: {}, name: {}, lang: {}, is_married: {}, hobbies: {:?}, address: {:?}",
             v.id, v.name, v.lang, v.is_married, v.hobbies, v.address
         ),
-        Err(e) => println!("fail to de code with error: {e}"),
+        Err(e) => println!("fail to parse with error: {e}"),
     }
 }
 

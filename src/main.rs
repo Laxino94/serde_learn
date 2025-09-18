@@ -5,6 +5,7 @@ fn main() {
     let mut m = HashMap::new();
     m.insert("id", 1);
     m.insert("postcode", 518000);
+
     // Convert HashMap to JSON string using serde_json::to_string method
     let s = serde_json::to_string(&m).unwrap();
     println!("json str: {}", s);
